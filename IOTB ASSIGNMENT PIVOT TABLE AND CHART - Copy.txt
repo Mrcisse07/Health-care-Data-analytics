@@ -1,0 +1,128 @@
+# Healthcare Data Analysis Using Pivot Tables & Pivot Charts
+**IOTB TECH Hospital | Data Analysis Team 
+
+---
+
+## Project Overview
+
+This project was carried out using healthcare records from IOTB TECH Hospital. The main aim of the analysis was to understand patient trends, hospital revenue, medical conditions, admission patterns, medication usage, and insurance contributions  using Microsoft Excel Pivot Tables and Pivot Charts.
+
+The dataset was cleaned, organised, and analysed to help management make better decisions based on real hospital data, rather than manually reviewing thousands of rows in a spreadsheet.
+
+---
+
+## Data Preparation
+
+Before starting the analysis, the dataset was cleaned and properly prepared. The following checks were carried out:
+
+- Removed blank rows
+- Checked for duplicate records
+- Verified and handled missing values
+- Corrected wrong data entries
+- Ensured correct data types for all columns
+
+**Formatting Applied**
+
+- Billing Amount → Currency format
+- Admission Date → Date format
+- Discharge Date → Date format
+
+**New Column Created**
+
+A new column called **Length of Stay** was added using the formula: `=Discharge Date – Admission Date`
+
+This calculated how many days each patient stayed in the hospital, which was later used in the average stay analysis by medical condition.
+
+---
+
+## Pivot Table Analysis
+
+Several Pivot Tables were created to answer important business and healthcare questions across five key areas.
+
+**Patient Analysis**
+- Total number of patients treated
+- Gender distribution across the hospital
+- Most common blood group among patients
+- Age group with the highest number of admissions
+
+**Medical Condition Analysis**
+- Most common medical condition recorded
+- Condition associated with the highest billing amount
+- Condition with the longest average hospital stay
+
+**Revenue & Billing Analysis**
+- Total hospital revenue
+- Monthly revenue trends over time
+- Insurance provider contributing the highest billing amount
+- Admission type generating the highest revenue
+
+**Admission Analysis**
+- Most common admission type
+- Month with the highest number of admissions
+- Gender with the highest rate of emergency admissions
+
+**Test Result & Medication Analysis**
+- Number of abnormal test results recorded
+- Medical conditions linked to the highest rate of abnormal results
+- Most prescribed medication overall
+- Medication associated with the highest billing amount
+
+---
+
+## Pivot Charts
+
+Pivot Charts were created alongside each table to make the findings easier to interpret visually. The following chart types were used:
+
+- **Column Charts** — for comparing values across categories (e.g. revenue by condition)
+- **Pie Charts** — for showing proportions (e.g. gender distribution)
+- **Bar Charts** — for ranked comparisons (e.g. most prescribed medications)
+- **Line Charts** — for trends over time (e.g. monthly revenue)
+
+Each chart was properly labelled with a title, axis labels, and clean formatting to ensure the information is readable and presentation-ready.
+
+---
+
+## Key Insights & Findings
+
+1. **Arthritis was the most common medical condition** in the dataset, with over 9,300 patient records. Diabetes and Hypertension were also very prevalent.
+
+2. **Diabetes generated the highest hospital revenue**, bringing in the largest total billing amount compared to all other conditions. This highlights how heavily diabetic treatment and ongoing care contribute to the hospital's income.
+
+3. **Asthma patients had the longest average hospital stay**, suggesting that asthma-related cases require extended monitoring and treatment compared to other conditions.
+
+4. **The 66+ age group recorded the highest number of admissions**, indicating that elderly patients require significantly more medical attention and healthcare support.
+
+5. **Cigna contributed the highest total billing amount** among all insurance providers, slightly ahead of Medicare and Blue Cross.
+
+6. **Elective admissions were the most common admission type**, though emergency and urgent admissions were close in number, highlighting a busy and diverse caseload.
+
+7. **The hospital reached its highest monthly revenue in July and August**, suggesting increased patient activity and treatment volumes during those months.
+
+8. **Lipitor was the most prescribed medication**, followed closely by Ibuprofen and Aspirin — indicating that cardiovascular conditions and pain management are among the most common treatment needs.
+
+9. **A large number of abnormal test results were recorded**, particularly among patients diagnosed with chronic illnesses such as Diabetes and Hypertension.
+
+10. **Male patients slightly dominated emergency admissions**, though overall male and female admission figures were relatively balanced.
+
+11. **Cancer and Asthma showed the highest average hospital stay durations**, which increases resource usage and operational costs.
+
+12. **The hospital manages a high volume of recurring chronic conditions**, underscoring the importance of long-term patient care strategies and consistent medication management.
+
+---
+
+## Recommendations
+
+- Invest more in the departments handling Diabetes, Arthritis, and Hypertension, as these represent a large and growing share of patient cases.
+- Allocate additional healthcare resources and monitoring systems for elderly patients, given that the 66+ age group recorded the highest number of admissions.
+- Improve respiratory care services and bed management planning to better support asthma patients, who tend to stay significantly longer than average.
+- Ensure that frequently prescribed medications — particularly Lipitor and Ibuprofen  remain fully stocked at all times to prevent shortages.
+- Strengthen partnerships with high-contributing insurance providers such as Cigna and Medicare to maintain and grow revenue stability.
+- Prepare staff capacity, bed availability, and supply levels ahead of July and August, when patient volumes and revenue typically peak.
+
+---
+
+## Conclusion
+
+This analysis demonstrates how Pivot Tables and Pivot Charts can transform raw healthcare data into meaningful, actionable insights. Rather than manually working through thousands of records, management can now clearly see patient behaviour patterns, revenue trends, medical condition breakdowns, and operational performance at a glance.
+
+With these insights in hand, IOTB TECH Hospital is better positioned to make data-driven decisions that improve patient outcomes, optimise resource allocation, and strengthen its financial performance going forward.
